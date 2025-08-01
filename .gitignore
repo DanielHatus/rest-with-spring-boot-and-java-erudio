@@ -1,0 +1,46 @@
+# Arquivos compilados Java
+*.class
+
+# Dependências do Node.js (caso use)
+node_modules/
+
+# Chaves SSH
+*.pem
+*.ppk
+
+# Ferramentas Mobile (J2ME)
+.mtj.tmp/
+
+# Pacotes gerados
+*.jar
+*.war
+*.ear
+
+# Arquivos de backup ou merge
+*.bak
+
+# Arquivos gerados pelo Maven
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+blog/bin/
+.tern-project
+.factorypath
+
+# IntelliJ IDEA
+*.iml
+.idea/
+.gradle/
+
+# Outros arquivos de configuração
+*.ini
+
+# Logs de erro da JVM
+hs_err_pid*
+
+# Workspace do Eclipse
+.metadata/
