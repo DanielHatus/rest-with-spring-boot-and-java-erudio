@@ -2,13 +2,13 @@ package br.com.erudio.rest_with_spring_boot_and_java_erudio.Exception.ResponseEx
 
 import java.time.LocalDateTime;
 
-public class ResponseException{
+public class ResponseException {
     private String message;
     private int numberError;
     private LocalDateTime dateNow;
     private String httpTypeError;
 
-    public ResponseException(String message,int numberError,LocalDateTime dateNow,String httpTypeError){
+    public ResponseException(String message, int numberError, LocalDateTime dateNow, String httpTypeError){
         this.message=message;
         this.numberError=numberError;
         this.dateNow=dateNow;
